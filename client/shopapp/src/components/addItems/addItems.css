@@ -1,0 +1,42 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 2px solid lightgray;
+    align-items: center;
+    margin-top: 20vh;
+    width: 61%;
+    min-width: 270px;
+    line-height: 3;
+    border-top-color: #5bad97
+}
+label>span {
+    display: inline-block;
+    width: 59px;
+}
+form>button {
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: #5bad97;
+    border: 2px solid #5bad97;
+    color: white
+}
+.headDiv {
+    width: 100%;
+    background: #5bad97;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: Helvetica;
+    border: 1px solid #5bad97;
+    word-spacing: 6px;
+}
+select {
+    padding: 5px 82px;
+    font-size: 14px;
+    background-color: #5bad97;
+    color: white;
+    border: 1px solid #5bad97;
+}

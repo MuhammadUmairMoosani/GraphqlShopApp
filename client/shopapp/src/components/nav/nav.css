@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #5bad97;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5bad97;
+}
+li {
+    list-style-type: none;
+}
+a {
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    display: block;
+    text-decoration:none;
+}
+li:hover {
+    background-color: #367d6a;
+}
+#addItems>a {
+    font-size: 28px;
+    padding: 13px;
+}

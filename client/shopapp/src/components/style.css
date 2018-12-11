@@ -1,0 +1,55 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.itemDiv {
+    background-color: #bb72ff;
+    margin: 2%;
+    padding: 2%;
+    color: #ffffff;
+    min-width: 200px;
+    line-height: 30px;
+}
+.itemDiv > div {
+    display: flex;
+    justify-content: space-around;
+}
+.HeadItem {
+    background-color: #8f40d8;
+}
+.deleteIcon img {
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+.deleteIcon {
+    justify-content: flex-end !important;
+}
+
+.editItemDiv {
+    background-color: #bb72ff;
+    padding: 2%;
+    margin: 0 auto;
+    margin-top: 20vh;
+    color: #ffffff;
+    max-width: 317px;
+    min-width: 200px;
+    line-height: 30px;
+}
+.editBtn>button {
+    width: 100%;
+    background: #8f40d8;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #8f40d8;
+    padding: 6px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.editInput {
+    border-radius: 1px;
+    border: 1px solid white;
+    margin-top: 5px;
+    text-align: center;
+}
